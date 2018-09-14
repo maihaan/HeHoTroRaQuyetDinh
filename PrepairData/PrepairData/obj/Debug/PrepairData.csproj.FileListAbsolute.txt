@@ -1,0 +1,8 @@
+D:\Projects\PrepairData\PrepairData\bin\Debug\PrepairData.exe.config
+D:\Projects\PrepairData\PrepairData\bin\Debug\PrepairData.exe
+D:\Projects\PrepairData\PrepairData\bin\Debug\PrepairData.pdb
+D:\Projects\PrepairData\PrepairData\obj\Debug\PrepairData.Form1.resources
+D:\Projects\PrepairData\PrepairData\obj\Debug\PrepairData.Properties.Resources.resources
+D:\Projects\PrepairData\PrepairData\obj\Debug\PrepairData.csproj.GenerateResource.Cache
+D:\Projects\PrepairData\PrepairData\obj\Debug\PrepairData.exe
+D:\Projects\PrepairData\PrepairData\obj\Debug\PrepairData.pdb
