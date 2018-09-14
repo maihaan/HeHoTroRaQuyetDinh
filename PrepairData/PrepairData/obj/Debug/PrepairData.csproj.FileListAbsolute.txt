@@ -6,3 +6,4 @@ D:\Projects\PrepairData\PrepairData\obj\Debug\PrepairData.Properties.Resources.r
 D:\Projects\PrepairData\PrepairData\obj\Debug\PrepairData.csproj.GenerateResource.Cache
 D:\Projects\PrepairData\PrepairData\obj\Debug\PrepairData.exe
 D:\Projects\PrepairData\PrepairData\obj\Debug\PrepairData.pdb
+D:\Projects\PrepairData\PrepairData\obj\Debug\PrepairData.csprojResolveAssemblyReference.cache

@@ -71,6 +71,7 @@ namespace PrepairData
                     String tenLuat = lines[i].Substring(4);
                     String veTrai = lines[i + 1].Substring(4);
                     String vePhai = lines[i + 2].Substring(4);
+                    String dienGiai = lines[i + 3].Substring(4).Trim();
 
                     // Tach ve phai neu ve phai co nhieu hon 1 su kien
                     foreach(String eRight in vePhai.Split(','))
@@ -98,12 +99,20 @@ namespace PrepairData
                                     + tenLuat + "', " + (maLuatLN + 1).ToString() + "," + maELeft.ToString() + "," + maERight.ToString() + ")";
                                 WriteData(queryLuat);
                             }
+
+                            // Cap nhat dien giai cho luat hien tai
+                            String queryDG = "Insert into tbDienGiaiLuat(MaLuat, DienGiai) Values(" + (maLuatLN + 1).ToString() + ",N'"
+                                + dienGiai + "')";
+                            WriteData(queryDG);
                         }
                     }
                     
 
                 }
             }
+
+            // Cap nhat dien giai cho cac luat
+
             MessageBox.Show("OK");
         }
 
